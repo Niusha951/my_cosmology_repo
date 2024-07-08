@@ -18,4 +18,13 @@ python halo_mass_calculation.py
 - **Cosmology Parameters**: You can easily modify the cosmology parameters by changing the constants defined at the beginning of the script.
 - **Virial Overdensity**: The relation for virial overdensity can be changed by modifying the corresponding function.
 
+### `calculate_V_max.py`
+
+This Python script calculates the `V_max` assuming an NFW profile for dark matter halos.
+
+**Customization**:
+- **Input Parameters**: Adjust the values of `M_vir`, `R_s`, and `R_vir` according to your specific halo parameters.
+- **Cosmology Constants**: Modify `G` or `h` as needed for different cosmological models or simulations.
+
+
 
