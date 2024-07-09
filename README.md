@@ -26,5 +26,10 @@ This Python script calculates the `V_max` assuming an NFW profile for dark matte
 - **Input Parameters**: Adjust the values of `M_vir`, `R_s`, and `R_vir` according to your specific halo parameters.
 - **Cosmology Constants**: Modify `G` or `h` as needed for different cosmological models or simulations.
 
+### `z_to_time.py`
 
+This Python script contains functions for converting between redshift (z) and cosmic time (t) in a cosmological context, based on specified cosmological parameters. It includes utilities to calculate lookback time given cosmic time.
+
+**Customization**:
+- **Input Parameters**: Ensure the cosmological parameters (`H0`, `Om0`, `Ol0`, `Ob0`) are set correctly according to your specific cosmology.
 
